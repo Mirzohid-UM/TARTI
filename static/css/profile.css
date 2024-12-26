@@ -1,0 +1,47 @@
+/* Profil ma'lumotlari uchun */
+.profile-info {
+    max-width: 600px; /* Maksimal kenglikni cheklash */
+    margin: 20px auto; /* O'rtaga joylash va yuqori/pastdan bo'sh joy */
+    padding: 20px; /* Ichki bo'sh joy */
+    background-color: #f9f9f9; /* Yengil fon rangi */
+    border: 1px solid #ddd; /* Chegara */
+    border-radius: 10px; /* Yumaloqlangan burchaklar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Yengil soya */
+    text-align: center; /* Matnni markazlashtirish */
+}
+
+/* Profildagi ma'lumotlar ro'yxati */
+.profile-info ul {
+    list-style: none; /* Ro'yxat belgilari yo'q qilish */
+    padding: 0; /* Ichki bo'sh joy yo'q qilish */
+}
+
+.profile-info ul li {
+    margin: 10px 0; /* Har bir element orasida bo'sh joy */
+    font-size: 16px; /* Matn o'lchami */
+    color: #333; /* Matn rangi */
+}
+
+/* Profil amallari uchun */
+.profile-actions {
+    text-align: center; /* Amallarni markazlashtirish */
+    margin: 20px auto; /* O'rtaga joylash */
+}
+
+.profile-actions a {
+    display: inline-block; /* Tugmalarni bir qatorga qo'yish */
+    margin: 10px; /* Tugmalar orasida bo'sh joy */
+    padding: 10px 20px; /* Tugma ichki bo'sh joyi */
+    font-size: 16px; /* Matn o'lchami */
+    font-weight: bold; /* Qalin matn */
+    color: #fff; /* Matn oq rangda */
+    background-color: #007bff; /* Tugma fon rangi */
+    text-decoration: none; /* Chiziqni olib tashlash */
+    border-radius: 5px; /* Yumaloqlangan burchaklar */
+    transition: background-color 0.3s ease; /* Hover animatsiyasi */
+}
+
+.profile-actions a:hover {
+    background-color: #0056b3; /* Hoverdagi fon rangi */
+}
+
